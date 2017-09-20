@@ -1,0 +1,15 @@
+
+  .navUl {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center
+
+  }
+  .navUl li{
+      font-size: 18px;
+      padding-right: 50px;
+      padding-top: 20px;
+      color: #35C0EF
+
+    }

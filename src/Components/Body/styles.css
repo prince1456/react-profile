@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis|Montserrat|Ubuntu');
+.body-container{
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 50vh;
+  width: 100%;
+  background-color: #35C0EF;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.body-container h1{
+  margin-top: 70px;
+  font-size: 60px;
+
+}
+.imagecontainer{
+  position: absolute;
+  top: 60%;
+  align-self: center;
+  justify-content: center;
+
+}
+
+.awatar{
+  width: 600px
+}
+.portfolio{
+  font-family: 'Montserrat', sans-serif;
+  color: #35C0EF;
+  width: 70%;
+  flex-direction: row;
+  display:  flex;
+  justify-content: space-around;
+  align-self: center;
+}
+.portfolio-image{
+  width: 100%
+}
+
+.portfolio-column{
+  flex: 1 200px;
+  background-color: white;
+  margin:10px;
+
+}
