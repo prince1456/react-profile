@@ -1,4 +1,5 @@
 import Body from "./Body"
+import About from "./About"
 
 
-export default Body
+export { Body, About}

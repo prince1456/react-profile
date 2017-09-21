@@ -2,6 +2,7 @@
 .body-container{
   font-family: 'Montserrat', sans-serif;
   padding-top: 50vh;
+  padding-bottom:70px;
   width: 100%;
   background-color: #35C0EF;
   text-align: center;
@@ -29,18 +30,20 @@
 .portfolio{
   font-family: 'Montserrat', sans-serif;
   color: #35C0EF;
-  width: 70%;
+  width: 80%;
   flex-direction: row;
   display:  flex;
   justify-content: space-around;
   align-self: center;
+  flex-wrap: wrap;
 }
 .portfolio-image{
+  flex: 1;
   width: 100%
 }
 
 .portfolio-column{
-  flex: 1 200px;
+  flex: 1 300px;
   background-color: white;
   margin:10px;
 
